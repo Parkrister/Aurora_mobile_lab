@@ -32,14 +32,6 @@
     </message>
 </context>
 <context>
-    <name>DefaultCoverPage</name>
-    <message>
-        <location filename="../qml/cover/DefaultCoverPage.qml" line="46"/>
-        <source>Template</source>
-        <translation>Шаблон</translation>
-    </message>
-</context>
-<context>
     <name>MainPage</name>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="48"/>
@@ -64,6 +56,14 @@
     </message>
 </context>
 <context>
+    <name>task11</name>
+    <message>
+        <location filename="../qml/pages/task11.qml" line="14"/>
+        <source>Задание 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>task3</name>
     <message>
         <location filename="../qml/pages/task3.qml" line="14"/>
@@ -76,6 +76,23 @@
     <message>
         <location filename="../qml/pages/task4.qml" line="14"/>
         <source>Задание 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>task5</name>
+    <message>
+        <location filename="../qml/pages/task5.qml" line="14"/>
+        <source>Задание 5</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>task9</name>
+    <message>
+        <location filename="../qml/pages/task9.qml" line="16"/>
+        <location filename="../qml/pages/task9.qml" line="27"/>
+        <source>Menu Label</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

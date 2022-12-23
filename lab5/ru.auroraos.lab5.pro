@@ -51,8 +51,15 @@ DISTFILES += \
     qml/pages/DialogTask3.qml \
     qml/pages/Page1.qml \
     qml/pages/Page2.qml \
+    qml/pages/task10.qml \
+    qml/pages/task11.qml \
     qml/pages/task3.qml \
     qml/pages/task4.qml \
+    qml/pages/task5.qml \
+    qml/pages/task6.qml \
+    qml/pages/task7.qml \
+    qml/pages/task8.qml \
+    qml/pages/task9.qml \
     rpm/ru.auroraos.lab5.spec \
     AUTHORS.md \
     CODE_OF_CONDUCT.md \

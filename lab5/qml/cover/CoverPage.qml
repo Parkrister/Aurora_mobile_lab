@@ -38,9 +38,23 @@
 import QtQuick 2.0
 import Sailfish.Silica 1.0
 
-ApplicationWindow {
-    objectName: "applicationWindow"
-    initialPage: Qt.resolvedUrl("pages/task10.qml")
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
-    allowedOrientations: defaultAllowedOrientations
+Cover {
+    property int count : 0
+    Label {
+        id: coverLabel
+        text: count
+        anchors.centerIn: parent
+    }
+    CoverActionList {
+        CoverAction {
+            iconSource: "image://theme/icon-cover-cancel"
+            onTriggered: if(count > 0){
+                             count--
+                         }
+        }
+        CoverAction {
+            iconSource: "image://theme/icon-cover-new"
+            onTriggered: count++
+        }
+    }
 }
