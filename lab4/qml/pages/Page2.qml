@@ -20,11 +20,20 @@ Page{
         Item{
             height: timePicker.height
             width: parent.width
+
+            TimePicker{
+                scale: 1.5
+                id: timeSec
+                hour: 0
+                minute: 30
+                onTimeChanged: console.log(timePicker.hour + ":" + timePicker.minute + ":" + timeSec.minute)
+            }
+
             TimePicker {
                 id: timePicker
                 hour: 15
                 minute: 26
-                onTimeChanged: console.log(timePicker.timeText)
+                onTimeChanged: console.log(timePicker.hour + ":" + timePicker.minute + ":" + timeSec.minute)
 
             }
             Label {
