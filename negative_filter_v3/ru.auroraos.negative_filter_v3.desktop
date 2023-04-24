@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=ru.auroraos.negative_filter_v3
+Exec=/usr/bin/ru.auroraos.negative_filter_v3
+Name=Template
+Name[ru]=Шаблон
+
+[X-Application]
+Permissions=UserDirs
+OrganizationName=ru.auroraos
+ApplicationName=negative_filter_v3
+ExecDBus=/usr/bin/ru.auroraos.negative_filter_v3
